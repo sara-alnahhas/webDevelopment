@@ -1,0 +1,295 @@
+* ,html ,body {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body {
+    background-image: linear-gradient(rgb(0,0,0,0.60),rgb(0,0,0,1.1)),url("images/download.jpg");
+    background-repeat: no-repeat ;
+    backface-visibility: hidden ;
+    background-size: cover;
+    background-attachment: fixed; 
+    
+}
+
+/* ------------- Navegation-Bar ------------------ */
+header {
+   /* background-color: firebrick;*/
+    height: 130px ;
+    line-height: 120px ;
+    position: sticky;
+   
+}
+
+header ul {
+    list-style: none;
+}
+header ul li {
+    display : inline-block;
+    
+}
+
+header nav {
+    float :right;
+    
+}
+
+.logo img {
+    margin-top:  : 30px; 
+    margin-left: 10%;
+   width: 18%;
+    
+}
+
+header nav ul li a {
+    padding-right: 50px ;
+    font-weight: blod;
+    font-size: 20px;
+    font-style: italic;
+    color : burlywood;
+    transition: all 0.5s ease-in ;
+    
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color : darkorange ;
+}
+
+/* ------------- HOME - Slide-Show  ------------------ */
+
+
+#slider {
+    width: 1000px ;
+    height: 500px;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-left: 13%;
+     box-shadow: 0px 0px 10px 10px rgba(56, 55, 55, 0.45) ;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 1000px;
+    height: 500px;
+
+}
+
+#slider .slide img {
+    width: 1000px;
+    height: 500px;
+}
+
+.goTo {
+    border: none;
+    margin-left: 0.5%;
+    padding: 5px;
+    color: #f8cf9a;
+    background-color: #8e553a;
+}
+/*------------ FONT  -------------------*/
+.index h1 {
+    text-align: center ;
+    font-family:sans-serif; 
+    text-shadow: -9px 1px rgba(56, 55, 55, 0.45) ;
+    color: aliceblue;
+}
+.index h3 {
+    text-align: center ;
+    color: aliceblue ;
+    font-family:sans-serif ; 
+    font-kerning: normal
+}
+
+.about h3 {
+    text-align: center ;
+    color: aliceblue ; 
+    font-family: cursive;
+}
+ /*----------------- FOOTER --------------------*/
+footer  {
+    color: aliceblue;
+    font-size: 2rem;
+    margin-left: 3%;
+}
+footer h5 {
+    font-size: 2rem;
+
+}
+
+
+/*------------ About  -------------------*/
+     .intro {
+              border: 1px solid gray;
+              padding: 8px;
+                 margin-top: 5%;
+                 background-color:rgba(0, 0, 0, 0.44);
+            }
+           .intro p {
+              color: #ffebcf;
+              font-size: 18px;
+              font-family :serif;
+              font-weight: 200;
+              page-break-inside: avoid
+
+            }
+
+           .intro h3 {
+              text-align: center;
+              text-transform: uppercase;
+              color: #f0a242;
+            }
+
+           .intro p {
+              text-indent: 50px;
+              text-align: justify;
+              letter-spacing: 3px;
+            }
+        .info img {
+            float: left;
+            position: relative; 
+            margin-left: 5px;
+            margin-top: 1%;
+          
+        }
+        .info h4 {
+            color: aliceblue;
+            margin-left: 3%;
+        }
+        .info h5 {
+            color:rgb(166, 195, 195);
+            margin-left: 3%;
+            
+        }
+
+
+/*------------ MENU -------------------*/
+
+.menu img  {
+    width : 300px;
+    height: 350px;
+}
+
+.menu h3 {
+    text-align: center;
+    font-family: cursive;
+    color: #ebe2d5
+}
+.menu h4 {
+    color: #cbb18e ;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: serif
+    
+}
+
+.menu h5 {
+    color: #b7a894 ;
+    text-align: center;
+    border: 0.4px solid rgba(80, 71, 71, 0.63);
+    padding : 3px;
+}
+
+.galary {
+  margin: 5%;
+  border: 1px solid #b98a74;
+  float: left;
+  width: 350px;
+  padding: 1.5%; 
+}
+
+.category{
+   display:  table-cell ;
+     margin: 15%;
+    box-sizing : content-box;
+
+}
+/*
+.column1 {
+    margin-bottom: 1%;
+    margin-left: 10%;
+    position: relative;
+    margin-bottom: 1%;
+    padding: 1.5rem;
+}
+
+.column2 {
+    margin-left: 50%;
+    position: relative;
+    padding: 1.5rem;
+    
+}*/
+
+/*----------CONTACT US ------------------*/
+/* Add styles to the form container */
+.container {
+  margin-right: 50%;
+  margin-top: 20px;
+  max-width: 50%;
+  padding: 16px;
+  background-color: rgba(49, 40, 40, 0.68);
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #65351f;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+form h1 , b { color: #ffe5c2}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
